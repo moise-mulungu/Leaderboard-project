@@ -21,6 +21,7 @@ There are an add score section and a recent scores section
 - Webpack
 - Visual Studio Code.
 - Linters
+- Gitflow
 
 ## Live Demo
 
