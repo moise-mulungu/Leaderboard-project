@@ -2,8 +2,8 @@ const displayResult = document.getElementById('display');
 const url = 'https://us-central1-js-capstone-backend.cloudfunctions.net/api/games/ GEcL1Ly5bcEAuCVIDPR2/scores/';
 
 const loadScores = (data) => {
-    displayResult.innerHTML = '';
-  data.map((scores) => { displayResult.innerHTML += `<li>${scores.user}:${scores.score}</li>`; });
+  displayResult.innerHTML = '';
+  data.forEach((scores) => { displayResult.innerHTML += `<li>${scores.user}:${scores.score}</li>`; });
 };
 
 const getData = async () => {

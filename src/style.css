@@ -15,6 +15,7 @@ body {
   box-shadow: 8px 10px rgb(197, 219, 216);
   background-color: rgb(216, 230, 222);
 }
+
 .heading {
   align-self: start;
   padding: 20px;
@@ -26,9 +27,10 @@ body {
   justify-content: space-between;
   align-items: center;
   gap: 10vh;
-  /* padding-right: 20px; */
-  /* max-width: max-content; */
 
+  /* padding-right: 20px; */
+
+  /* max-width: max-content; */
 }
 
 .left-content {
@@ -37,6 +39,7 @@ body {
   justify-content: center;
   align-items: center;
   margin-bottom: 40px;
+
   /* width: max-content; */
 }
 
@@ -75,12 +78,14 @@ body {
   justify-content: flex-start;
   border: 2px solid rgb(213, 213, 223);
   padding: 20px;
+
   /* margin-bottom: 0; */
   list-style-type: none;
   gap: 8px;
   border-radius: 10px;
   background-color: rgb(180, 189, 192);
 }
+
 .display-scores :nth-child(even) {
   color: rgb(21, 21, 122);
 }

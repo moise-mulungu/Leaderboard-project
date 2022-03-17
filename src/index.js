@@ -25,8 +25,6 @@ formInput.addEventListener('submit', (event) => {
   nameInput.value = '';
   scoreInput.value = '';
   getData();
-
 });
 refreshBtn.addEventListener('click', getData);
 getData();
-
