@@ -13,20 +13,18 @@
         <div class="left-content">
             <div class="top-left">
                 <h2>Recent scores</h2>
-                <button type="submit" class="btn">refresh</button>
+                <button type="submit" class="btn" id="refreshButton">refresh</button>
             </div>
-            <div class="display-scores">
-                <p>Name: 100</p>
-                <p>Name: 50</p>
-                <p>Name: 70</p>
-                <p>Name: 85</p>
-            </div>
+            <ul  id="display" class="display-scores"></ul>
         </div>
         <div class="right-content">
             <h2>Add your score</h2>
-            <input type="text" placeholder="your name">
-            <input type="text" placeholder="your score">
-            <button type="submit" class="btn">submit</button>
+            <form class="form" id="formInput">
+                <input id="name" type="text" placeholder="your name" required>
+                <input id="score" type="text" placeholder="your score" required>
+                <button type="submit" class="btn">submit</button>
+            </form>
+            
         </div>
     </div>
 </body>

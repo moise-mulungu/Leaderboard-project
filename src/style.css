@@ -1,32 +1,43 @@
-html,
+
 body {
-  width: 80%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 55%;
   margin: auto;
   position: fixed;
-  top: 20%;
+  top: 30%;
   left: 30%;
   transform: translate(-20%, -30%);
+  border: 2px solid rgb(176, 182, 185);
+  border-radius: 10px;
+  box-shadow: 8px 10px rgb(197, 219, 216);
+  background-color: rgb(216, 230, 222);
 }
-
 .heading {
-  text-align: start;
+  align-self: start;
+  padding: 20px;
 }
 
 .main-content {
   display: grid;
   grid-template-columns: auto auto;
-  justify-content: center;
+  justify-content: space-between;
   align-items: center;
-  gap: 64px;
-  padding: 20px;
-  max-width: max-content;
+  gap: 10vh;
+  /* padding-right: 20px; */
+  /* max-width: max-content; */
+
 }
 
 .left-content {
   display: grid;
   grid-template-columns: auto;
-  justify-content: flex-start;
+  justify-content: center;
   align-items: center;
+  margin-bottom: 40px;
+  /* width: max-content; */
 }
 
 .top-left {
@@ -34,26 +45,44 @@ body {
   flex-direction: row;
   justify-content: center;
   align-items: center;
-  gap: 16px;
+  gap: 26px;
+  padding: 30px;
 }
 
-.right-content > .btn {
+.top-left > .btn {
+  cursor: pointer;
+  background-color: rgb(141, 53, 230);
+  border-radius: 5px;
+  color: rgb(231, 237, 238);
+  padding: 10px 30px;
+  border: transparent;
+}
+
+.form > .btn {
   align-self: flex-end;
-  padding: 6px;
-  margin-left: 126px;
-  width: 30%;
-}
-
-.left-content > .top-left > .btn {
-  padding: 6px;
+  padding: 8px;
+  margin-left: 106px;
+  width: 50%;
+  cursor: pointer;
+  background-color: green;
+  border-radius: 5px;
+  color: white;
 }
 
 .display-scores {
   display: grid;
   grid-template-columns: auto;
   justify-content: flex-start;
-  border: 2px solid black;
-  padding: 10px;
+  border: 2px solid rgb(213, 213, 223);
+  padding: 20px;
+  /* margin-bottom: 0; */
+  list-style-type: none;
+  gap: 8px;
+  border-radius: 10px;
+  background-color: rgb(180, 189, 192);
+}
+.display-scores :nth-child(even) {
+  color: rgb(21, 21, 122);
 }
 
 .right-content {
@@ -62,8 +91,22 @@ body {
   justify-content: space-between;
   align-items: center;
   gap: 18px;
+  background-color: rgb(18, 18, 78);
+  border-radius: 10px;
+  padding: 50px;
+  color: aliceblue;
 }
 
-.right-content > input {
-  border: 1px solid black;
+.form {
+  display: grid;
+  grid-template-columns: auto;
+  justify-content: space-between;
+  align-items: center;
+  gap: 28px;
+}
+
+.form > input {
+  border: 2px solid black;
+  border-radius: 4px;
+  padding: 10px 20px;
 }

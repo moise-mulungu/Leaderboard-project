@@ -2,16 +2,16 @@
 
 # TLeaderboard
 In this app i display the leaderboard and its differents contents.
-There are an add score section and a recent scores section
+This app hit the api, which means take data from the api
 
 
 ![](file:///home/moise/Leaderboard-project/dist/index.html)
 
-# Leaderboard : setup project
+# Leaderboard :  hit the API
 
 > Open with with the server
 
-![screenshot](img/board.png).
+![screenshot](img/api.png).
 
 ## Built With
 
@@ -22,6 +22,7 @@ There are an add score section and a recent scores section
 - Visual Studio Code.
 - Linters
 - Gitflow
+- API
 
 ## Live Demo
 
