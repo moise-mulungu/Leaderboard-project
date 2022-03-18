@@ -1,5 +1,5 @@
 const displayResult = document.getElementById('display');
-const url = 'https://us-central1-js-capstone-backend.cloudfunctions.net/api/games/ GEcL1Ly5bcEAuCVIDPR2/scores/';
+const url = 'https://us-central1-js-capstone-backend.cloudfunctions.net/api/games/ 9rTfnXYuiz3fkEn4zX0n/scores/';
 
 const loadScores = (data) => {
   displayResult.innerHTML = '';

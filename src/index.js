@@ -1,7 +1,7 @@
 import getData from './modules/connect.js';
 import './style.css';
 
-const url = 'https://us-central1-js-capstone-backend.cloudfunctions.net/api/games/ GEcL1Ly5bcEAuCVIDPR2/scores/';
+const url = 'https://us-central1-js-capstone-backend.cloudfunctions.net/api/games/ 9rTfnXYuiz3fkEn4zX0n/scores/';
 const formInput = document.getElementById('formInput');
 const nameInput = document.getElementById('name');
 const scoreInput = document.getElementById('score');

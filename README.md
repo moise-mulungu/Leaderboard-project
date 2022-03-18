@@ -7,11 +7,11 @@ This app hit the api, which means take data from the api
 
 ![](file:///home/moise/Leaderboard-project/dist/index.html)
 
-# Leaderboard :  hit the API
+# Leaderboard :   final touches
 
 > Open with with the server
 
-![screenshot](img/api.png).
+![screenshot](img/leaderboard.png).
 
 ## Built With
 
