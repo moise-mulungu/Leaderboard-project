@@ -14,7 +14,7 @@ body {
 
 .heading {
   align-self: start;
-  padding: 20px;
+  /* padding: 20px; */
 }
 
 .main-content {
