@@ -2,7 +2,7 @@
 
 # TLeaderboard
 In this app i display the leaderboard and its differents contents.
-This app hit the api, which means take data from the api
+This app 
 
 
 ![](file:///home/moise/Leaderboard-project/dist/index.html)
@@ -22,7 +22,7 @@ This app hit the api, which means take data from the api
 - Visual Studio Code.
 - Linters
 - Gitflow
-- API
+- API `(https://us-central1-js-capstone-backend.cloudfunctions.net/api/games/ 9rTfnXYuiz3fkEn4zX0n/scores/)`
 
 ## Live Demo
 
@@ -36,9 +36,14 @@ To get a local copy of this app you can use :
 ```
 git clone  https://github.com/moise-mulungu/Leaderboard-project
 ```
-To make how it works, use webpack dev-server from your local.
+# Install
 
+- After cloning run `npm install`
 
+# Usage
+
+`npm install -g live-server` after run
+`live-server`
 
 ## Author
 
