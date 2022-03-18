@@ -1,55 +1,50 @@
-
+html,
 body {
-  display: flex;
-  flex-direction: column;
+  display: grid;
+  grid-template-columns: 1fr;
   justify-content: center;
   align-items: center;
-  width: 55%;
+  width: 60%;
   margin: auto;
   position: fixed;
-  top: 30%;
+  top: 20%;
   left: 30%;
   transform: translate(-20%, -30%);
-  border: 2px solid rgb(176, 182, 185);
-  border-radius: 10px;
-  box-shadow: 8px 10px rgb(197, 219, 216);
-  background-color: rgb(216, 230, 222);
 }
 
 .heading {
   align-self: start;
-  padding: 20px;
 }
 
 .main-content {
   display: grid;
-  grid-template-columns: auto auto;
-  justify-content: space-between;
+  grid-template-columns: 1fr 1fr;
   align-items: center;
-  gap: 10vh;
-
-  /* padding-right: 20px; */
-
-  /* max-width: max-content; */
+  gap: 20px;
+  width: 100%;
+  background-color: rgb(177, 197, 197);
+  border-radius: 10px;
+  padding: 30px;
 }
 
 .left-content {
-  display: grid;
-  grid-template-columns: auto;
-  justify-content: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
   align-items: center;
-  margin-bottom: 40px;
-
-  /* width: max-content; */
+  gap: 18px;
+  background-color: rgb(209, 223, 218);
+  border-radius: 10px;
+  padding: 10px;
+  color: rgb(53, 57, 59);
 }
 
 .top-left {
   display: flex;
   flex-direction: row;
-  justify-content: center;
+  justify-content: space-between;
   align-items: center;
-  gap: 26px;
-  padding: 30px;
+  gap: 16px;
 }
 
 .top-left > .btn {
@@ -59,6 +54,7 @@ body {
   color: rgb(231, 237, 238);
   padding: 10px 30px;
   border: transparent;
+  box-shadow: 1px 2px rgb(166, 175, 166);
 }
 
 .form > .btn {
@@ -68,37 +64,56 @@ body {
   width: 50%;
   cursor: pointer;
   background-color: green;
+  border: transparent;
   border-radius: 5px;
+  box-shadow: 1px 2px rgb(166, 175, 166);
   color: white;
 }
 
 .display-scores {
-  display: grid;
-  grid-template-columns: auto;
-  justify-content: flex-start;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
   border: 2px solid rgb(213, 213, 223);
-  padding: 20px;
-
-  /* margin-bottom: 0; */
   list-style-type: none;
   gap: 8px;
   border-radius: 10px;
-  background-color: rgb(180, 189, 192);
+  padding-left: 0;
+  width: 100%;
+  overflow-y: scroll;
+  overflow-x: hidden;
+}
+
+.display-scores > li {
+  display: flex;
+  justify-content: space-between;
+  border-radius: 4px;
+  padding: 10px 0 10px 10px;
+  min-width: max-content;
+  font-size: 16px;
+  font-family: Arial, Helvetica, sans-serif;
+  width: 100%;
 }
 
 .display-scores :nth-child(even) {
-  color: rgb(21, 21, 122);
+  background-color: rgb(21, 21, 122);
+  color: rgb(238, 234, 229);
+}
+
+.display-scores :nth-child(odd) {
+  background-color: rgb(24, 148, 121);
+  color: rgb(238, 234, 229);
 }
 
 .right-content {
-  display: grid;
-  grid-template-columns: auto;
+  display: flex;
+  flex-direction: column;
   justify-content: space-between;
   align-items: center;
   gap: 18px;
   background-color: rgb(18, 18, 78);
   border-radius: 10px;
-  padding: 50px;
+  padding: 20px;
   color: aliceblue;
 }
 
