@@ -28,7 +28,7 @@ This app
 
 [github page](https://github.com/moise-mulungu/Leaderboard-project)
 
-[live demo](https://moise-mulungu.github.io/Leaderboard-project/)
+[live demo](https://moise-mulungu.github.io/Leaderboard-project/dist/)
 
 ## Getting Started
 
